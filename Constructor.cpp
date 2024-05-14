@@ -18,5 +18,16 @@ public:
     mahasiswa(int iNim)
     {
         nim = iNim;
-    }
+    };
+
+    mahasiswa(string iNama)
+    {
+        nama =iNama;
+    };
+
+    mahasiswa(int iNim, string iNama)
+    {
+        nim = iNim;
+        nama = iNama;
+    };
 };
