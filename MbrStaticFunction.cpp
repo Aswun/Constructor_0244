@@ -7,4 +7,8 @@ class mahasiswa
 private:
     static int nim;
 
+public:
+    int nim;
+    string nama;
+    
 };
