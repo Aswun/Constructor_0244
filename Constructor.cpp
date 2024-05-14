@@ -18,3 +18,6 @@ public:
         setID();
     }
 };
+
+int mahasiswa::nim = 244;
+
