@@ -22,4 +22,10 @@ public:
     {
         return nim;
     }
+
+    mahasiswa(string pnama)
+    {
+        nama = pnama;
+        setID();
+    }
 };
