@@ -8,7 +8,7 @@ private:
     static int nim;
 
 public:
-    int nim;
+    int id;
     string nama;
 
     void setID();
@@ -29,3 +29,5 @@ public:
         setID();
     }
 };
+
+int mahasiswa::nim = 0;
