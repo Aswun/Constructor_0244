@@ -39,3 +39,11 @@ public:
     }
 };
 
+int main()
+{
+    mahasiswa mhs1;
+    mahasiswa mhs2(20); 
+    mahasiswa mhs3("Indra");
+    mahasiswa mhs4(30, "Fauzan");
+}
+
