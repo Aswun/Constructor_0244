@@ -14,3 +14,10 @@ public:
     void cetakData();
     void isiData();
 };
+
+angka::angka(int i)
+{
+    panjang = 1;
+    arr = new int(1);
+    isiData();
+}
