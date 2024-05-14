@@ -21,3 +21,11 @@ angka::angka(int i)
     arr = new int(1);
     isiData();
 }
+
+angka::~angka()
+{
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "alamat Array Sudah Dilepaskan" << endl;
+}
